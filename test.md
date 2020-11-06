@@ -1,33 +1,26 @@
-*02 | serverseitige Scriptsprache PHP*
+*MEDT4-BewerteteUebung-StaticWebProject-Arbeitsumgebung-v0.1.pdf*
 
-# Übung 02_02: Superglobals/Verweigungen/Schleifen
+# Einrichten der Arbeitsumgebung
 
-Erstellen Sie eine einfache Bootstrap Website.
-- Auf GET Parameter 'page' abfragen
-  - Prüfen Sie ob es den parameter gibt
-  - Wenn 'page' den Wert 1 hat geben sie "erste Seite" aus
-  - Wenn 'page' den Wert 2 hat geben sie "zweite Seite" aus
-  - Anderenfalls geben Sie "Seite <page>" aus
-- Wenn 'id' als GET Parameter gesetzt ist, geben Sie den Wert als Bootstrap Columns aus
-  - Bsp: 'id' hat den Wert 4
-![Bootstrap Columns](img/bootstrap_cols_4.png)
+Das bewertete Übungsbeispiel "Static Web Project" (SWP) stellt einige Anforderungen an die Arbeitsumgebung, die sich wie folgt definieren:
 
-*Testen Sie Ihre Seite indem Sie bei der URL die Parameterwerte hinzufügen.*
+### Tools und Pakete
 
-**Erweiterung:**
-Richten Sie auf der Seite ein Formular mit 2 Feldern ein, die für die Werte 'page' und 'id' verantwortlich sind. 
+>**Wichtig**: Sie benötigen eine lauffähige npm- bzw. Grunt-Installation, und stellen Sie sicher, dass alle erforderlichen npm-Module installiert sind, um den Bootstrap-Quellcode zu übersetzen.  
+Stichwort Bootstrap: Laden Sie den Bootstrap-Quellcode ebenfalls bereits vor Übungsbeginn.
+
+### Verzeichnisstruktur
+Erstellen Sie nachfolgende Verzeichnisstruktur. Ersetzen Sie hierbei den Platzhalter *\<Nachname\>* durch ihren Nachnamen (z.B. *SWP-Brunner*)
 
 
-**Verwenden Sie folgende Technologien/Libraries:**
-- Bootstrap
-- HTML5
-- PHP
+```
+/SWP-Nachname
+  /dev
+    /scss
+      styles.scss
+    index.html
+  /dist
+    /css
+```
 
-**folgende Kriterien müssen erfüllt werden:**
-- Responsive
-- gut strukturiertes und semantisch korrekter HTML Code (HTML5 Tags!)
-- saubere Trennung von Design und Struktur
-- läuft auf allen aktuellen Browsern
-- korrekter PHP/HTML/CSS/JS Code (lt. W3C)
-- alle Bilder für die Website optimiert (Speicherplatz, Größe, Auflösung)
-- ansprechendes Design
+# Aufgabenstellung
